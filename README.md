@@ -1,24 +1,53 @@
-# README
+# Swag Management
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is meant to mirror Koits Designs's custom jackets page at https://go.kotisdesign.com/products/custom-jackets/
 
-Things you may want to cover:
+It uses Ruby on Rails as the backend api and React.js for the front-end.
 
-* Ruby version
+Currently, the functionality supports showing a list of orders, and creating an order, which belongs to a product.
 
-* System dependencies
+## Instructions:
 
-* Configuration
+Clone Repo
+```
+git clone git@github.com:maxfrda/swag_management.git
+```
+swith to repo
+```
+cd swag_management
+```
 
-* Database creation
+install gems
+```
+bundle install
+```
 
-* Database initialization
+create, migrate, and populate database
+```
+rails db:create && rails db:migrate && rails db:seed
+```
 
-* How to run the test suite
+start rails server
+```
+rails s
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+switch to react app in new window
+```
+cd frontend
+```
 
-* Deployment instructions
+install packages
+```
+npm install
+```
+Start react server
+```
+npm start
+```
 
-* ...
+
+Your orders at the bottom should be empty, however you can add and order by click the `Start Your Jacket` button.
+
+
+![kotis-design](https://github.com/user-attachments/assets/6c961e4f-78ff-4856-87e2-019c433cad53)
