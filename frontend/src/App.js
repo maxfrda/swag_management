@@ -13,7 +13,7 @@ function App() {
           <img
             src="https://go.kotisdesign.com/wp-content/uploads/2021/03/kotis-design-logo-orange.svg"
             alt="Kotis Design Logo"
-            className="h-8" // Adjust size as needed
+            className="h-6" // Adjust size as needed
           />
         </div>
 
